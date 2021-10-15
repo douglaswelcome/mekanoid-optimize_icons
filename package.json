@@ -4,11 +4,12 @@
   "description": "An icon set for mekanoid",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "opt_svg": "svgo -f mekanoid_icons/svg/src -o mekanoid_icons/svg/dist "
   },
   "author": "Douglas Welcome",
   "license": "ISC",
-  "dependencies": {
-    "carbon-icons": "^7.0.7"
+  "devDependencies": {
+    "svgo": "^2.5.0"
   }
 }
